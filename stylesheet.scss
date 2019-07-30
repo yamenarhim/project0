@@ -1,4 +1,3 @@
-@import "compass/css3";
 /*
 #home-header {
 
@@ -41,12 +40,10 @@
     font-size: 30px;
     text-align: center;
     height: auto
-    news1{
-      font-size: 18;
-    }
-
   }
-
+#news1{
+  font-size: 4;
+}
 #home-header a {
   text-decoration: none;
   display: block;
@@ -108,7 +105,7 @@ position: relative;
   background-color: #32CD32
 }
 article {
-  width: 300px
+  width: 300px;
   text-align: center;
   place-items: center;
   display: block;
