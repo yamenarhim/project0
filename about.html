@@ -6,6 +6,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <style>
+
     .grid-container {
       display: grid;
       grid-template-columns: auto 1000px auto;
@@ -21,6 +22,9 @@
         text-align: center;
         height: 500px;
 
+      }
+      #place-holder{
+        opacity: 0;
       }
     </style>
 
@@ -44,16 +48,10 @@
         </ul>
 
         <h2 style='color:blue;text-align:center'>Welcome to DPT Team Website</h2>
-
-        <article >
-        We have nothing to talk about ourselves.
-
-
-        </article>
         <div class="grid-container">
-          <div class="grid-item">1</div>
-          <div class="grid-item">2</div>
-          <div class="grid-item">3</div>
+          <div class="grid-item" id="place-holder">1</div>
+          <div class="grid-item">  We have nothing to talk about ourselves.</div>
+          <div class="grid-item"  id="place-holder">3</div>
 
         </div>
       </div>

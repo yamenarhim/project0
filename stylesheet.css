@@ -62,8 +62,7 @@
 
 /* line 66, ../../../courses/CS50 wep programming/project0/stylesheet.scss */
 .grid-container .grid-item {
-  background-color: deepskyblue;
-  border: 1px solid green;
+  background-color: white;
   height: auto;
 }
 

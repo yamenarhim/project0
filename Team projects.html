@@ -5,6 +5,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: 400px auto auto;
+    }
+    #grid-item1{
+      width:600px;
+      background-color: white;
+    }
+    #place-holder {
+      content:"ss";
+
+    }
+    </style>
   </head>
 
   <body>
@@ -24,12 +38,18 @@
         </ul>
 
         <h2 style='color:blue;text-align:center'>Welcome to DPT Team Website</h2>
+        <div class="grid-container">
+          <div id="place-holder">
+          </div>
+          <div id="grid-item1">
 
-        <article >
-        Hi, everbody we have alot of projecs here like nothing and more nothing we look forwoard to work with you people
+              <p>Hi, everbody we have alot of projecs here like nothing and more nothing we look forwoard to work with you people</p>
 
+          </div>
+          <div id="place-holder">
+          </div>
+        </div>
 
-        </article>>
         <div class="container" >
           <div class="row border border-secondary">
             <div class="col-sm " id='coll'>
